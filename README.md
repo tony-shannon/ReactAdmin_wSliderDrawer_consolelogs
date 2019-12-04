@@ -1,0 +1,2 @@
+# ReactAdmin_wSliderDrawer_consolelogs
+Created with CodeSandbox
