@@ -25,7 +25,7 @@ const PostPreviewView = ({ classes, ...props }) => (
    
     <SimpleShowLayout {...props}>
         {console.log("Props are " + JSON.stringify({...props}))}
-        {console.log("Classes are " + JSON.stringify(classes.field))}
+        {console.log("Classes are " + JSON.stringify(classes))}
         <TextField source="id" />
         <TextField source="title" className={classes.field} />
         <TextField source="teaser" className={classes.field} />
