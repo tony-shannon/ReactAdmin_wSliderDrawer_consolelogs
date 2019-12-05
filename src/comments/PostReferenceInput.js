@@ -13,6 +13,7 @@ const PostReferenceInput = props => (
 
         <PostQuickCreateButton />
         {/* We use Field to get the current value of the `post_id` field */}
+        {console.log("PostRef Props are " + JSON.stringify({ ...props }))}
         <Field
             name="post_id"
             component={({ input }) =>
